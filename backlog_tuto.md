@@ -186,19 +186,27 @@ heroku login
 ```
 heroku create fish-health
 ```
-
-🟢 optional (if needed for compatibility with old version of Ruby) :
+---
+📌 optional (if needed for compatibility with old version of Ruby) :
 ```
 heroku stack;
 heroku stack:set heroku-20;
 heroku stack
 ```
+```
+bundle lock --add-platform x86_64-linux
+```
+---
 
-🟢 push to heroku repo :
+🟢 push to Heroku repo :
 ```
 git push heroku main
 ```
 
+🟢 popen last deploy on Heroku repo :
+```
+heroku open
+```
 
 
 
