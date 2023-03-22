@@ -132,19 +132,74 @@ rails s
 ```
 gaa && gc -m '🤩 initial commit 🚀' && gp -u origin main
 ```
-### Step 3. Create... :
+### Step 3. Add new pages :
+
+🟢 create static pages :
+
+[official doc : 'controller'](https://guides.rubyonrails.org/generators.html#customizing-your-workflow) (static page auto-creation)
+
 ```
-- 
+rails generate controller Public home about privacy legals
 ```
+browser verifications :
+
+[http://127.0.0.1:3000/public/home](http://127.0.0.1:3000/public/home)
+
+[http://127.0.0.1:3000/public/about](http://127.0.0.1:3000/public/about)
+
+[http://127.0.0.1:3000/public/privacy](http://127.0.0.1:3000/public/privacy)
+
+[http://127.0.0.1:3000/public/legals](http://127.0.0.1:3000/public/legals)
+
+🟢 define the default route :
+
+(update in the <em>'config/routes.rb'</em> file)
 ```
-- 
+# Defines the root path route ("/")
+  root 'public#home'
 ```
+
+browser verification :
+
+[http://127.0.0.1:3000/](http://127.0.0.1:3000/)
+
+
+### Step 4. Deploy :
+
+🟢 install Heroku cli :
 ```
+brew tap heroku/brew && brew install heroku
 ```
-### Step 4. Create ... :
-- 
+
+🟢 verify your CLI installation
+
 ```
+heroku --version
 ```
+
+🟢 login Heroku :
+```
+heroku login
+```
+
+🟢 create a new depot in Heroku :
+```
+heroku create fish-health
+```
+
+🟢 optional (if needed for compatibility with old version of Ruby) :
+```
+heroku stack;
+heroku stack:set heroku-20;
+heroku stack
+```
+
+🟢 push to heroku repo :
+```
+git push heroku main
+```
+
+
 
 
 <div align="center">
