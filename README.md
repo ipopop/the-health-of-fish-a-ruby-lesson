@@ -16,31 +16,21 @@
 
 
 
+
 <div align="center">
-  <div align="center">
-      <div align="center">
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-    </div>
-  </div>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+
+  <p>made with ❤️ and</p>
+
+  <a href="https://ruby-lang.org/" target="_blank">
+    <img 
+      style="margin-left: auto;
+            margin-right: auto;
+            width: 23%;"
+      src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" 
+      alt="Ruby">
+    </img>
+  </a>
 </div>
-
-<p align="center"> made with ❤️ and 
-</p>
-
-
-<p align="center" >
-<a href="https://ruby-lang.org/" target="_blank">
-<img 
-  style="margin-left: auto;
-        margin-right: auto;
-        width: 23%;"
-  src="https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white" 
-  alt="Ruby">
-</img>
-</a>
-</p>
