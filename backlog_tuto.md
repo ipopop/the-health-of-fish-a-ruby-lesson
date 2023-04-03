@@ -1,3 +1,4 @@
+<a id="anchor_000"></a>
 ## <p align="center">🐙🐳🐡&nbsp; &nbsp; Fish Health &nbsp; &nbsp;🐟🐠🦀</p>
 
 ### <p align="center"><span style="color:orange" >(a <b style="color:red" >💎 Ruby</b> <em>side-project</em>)</span></p>
@@ -6,15 +7,27 @@
 ### [ <p align="center">🚀 &nbsp; <b>from the original Tuto Project "Doctofish" by Harry JMG</b> </p> ](https://github.com/harryjmg/doctofish)
 
 
-[ ] &nbsp; <em>todo : make a summary (with links)</em>
+[X] &nbsp; <em>todo : make a summary (with links)</em>
+
 
 ---
+
+#### Summary :
+- [Step 1: Ruby & Rails Install](#anchor_001)
+- [Step 2: Create New Project](#anchor_002)
+- [Step 3: Add New Pages](#anchor_003)
+- [Step 4: Deploy](#anchor_004)
+- [Step 5: Update Framework CSS](#anchor_005)
+- [Step 6: Next Steps...](#anchor_006)
+
+---
+
  
 #### 📺 &nbsp; <em style="color:lightblue"> ref. video : </em> <span style="color:lightgreen" > "Doctofish Part 2 - 24 May 2022"</span>
 
 ![](app/assets/images/XD_schema_video_02.jpg)
 
-
+<a id="anchor_001"></a>[⬅️](#anchor_000)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_002)
 ### Step 1. Ruby & Rails install :
  
 🟢 for this tuto, verify Ruby(3.0.3) & Rails(7.0.3) versions :
@@ -76,6 +89,7 @@ source ~/.zshrc;
 rails -v; # ('Rails 7.0.3' ?)
 
 ```
+<a id="anchor_002"></a>[⬅️](#anchor_001)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_003)
 ### Step 2. Create New Project :
 
 ```
@@ -146,6 +160,7 @@ rails s
 ```
 gaa && gc -m '🤩 initial commit 🚀' && gp -u origin main
 ```
+<a id="anchor_003"></a>[⬅️](#anchor_002)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_004)
 ### Step 3. Add new pages :
 
 🟢 create static pages :
@@ -175,7 +190,7 @@ rails generate controller Public home about privacy legals
 
 - browser verification : [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
 
-
+<a id="anchor_004"></a>[⬅️](#anchor_003)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_005)
 ### Step 4. Deploy :
 
 🟢 install Heroku cli :
@@ -230,7 +245,7 @@ heroku logs
 
 ![](app/assets/images/trello_video_03.jpg)
 
-
+<a id="anchor_005"></a>[⬅️](#anchor_004)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_006)
 ### Step 5. update framework CSS :
 
 🟢 install Bootstrap :
@@ -362,7 +377,7 @@ import "bootstrap"
 📌 ref. doc. : [Rails 7, Bootstrap 5 and importmaps without nodejs](https://dev.to/coorasse/rails-7-bootstrap-5-and-importmaps-without-nodejs-4g8)
 
 ---
-
+<a id="anchor_006"></a>[⬅️](#anchor_005)&nbsp; &nbsp;[⬆️](#anchor_000)&nbsp; &nbsp;[➡️](#anchor_007)
 ### Step 6. Next step... :
 
 
